@@ -9,7 +9,7 @@ function renderLicenseBadge(data) {
   
   if (data.license === "Apache License 2.0"){
   return`
-  [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0/)
+  [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
   `;
   }
 
