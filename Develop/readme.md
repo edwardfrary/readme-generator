@@ -1,11 +1,9 @@
 
-  # Edward Frary, a project by Edward Frary.
-  
+  # Edward, a project by Edward. 
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-    
-  
-  **Email:** Edward Frary  
-  **GitHub:** Edward Frary
+   
+  **Email:** Edward  
+  **GitHub:** Edward  
 
   ## Table of Contents  
   * [Description](#description)  
