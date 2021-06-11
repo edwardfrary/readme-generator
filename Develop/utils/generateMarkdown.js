@@ -1,6 +1,12 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { }
+function renderLicenseBadge(data) {
+  if (data.license === "MIT License") {
+    return `
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+  `;
+  }
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -26,7 +32,7 @@ function usageContent(data) {
   return `* [Usage](#usage)  `
 };
 
-function distGuideContent(data){
+function distGuideContent(data) {
   if (!data.distGuide) {
     return '';
   }
@@ -35,7 +41,7 @@ function distGuideContent(data){
       `
 };
 
-function licenseContent(data){
+function licenseContent(data) {
   if (!data.license) {
     return '';
   }
@@ -44,7 +50,7 @@ function licenseContent(data){
       `
 };
 
-function testInstContent(data){
+function testInstContent(data) {
   if (!data.testInst) {
     return '';
   }
@@ -97,6 +103,7 @@ function generateLicense(data) {
 
   return `
   ## License  
+  ${renderLicenseBadge(data)}  
   ${data.license}
     `
 };
