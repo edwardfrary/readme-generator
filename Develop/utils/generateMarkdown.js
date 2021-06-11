@@ -6,6 +6,13 @@ function renderLicenseBadge(data) {
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
   `;
   }
+  
+  if (data.license === "Apache License 2.0"){
+  return`
+  [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0/)
+  `;
+  }
+
 };
 
 // TODO: Create a function that returns the license link
