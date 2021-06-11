@@ -15,9 +15,7 @@ function instContent(data) {
     return '';
   }
 
-  return `
-  * [Installation](#installation)  
-  `
+  return `* [Installation](#installation)  `
 };
 
 function usageContent(data) {
@@ -25,9 +23,7 @@ function usageContent(data) {
     return '';
   }
 
-  return `
-    * [Usage](#usage)  
-      `
+  return `* [Usage](#usage)  `
 };
 
 function distGuideContent(data){
@@ -35,8 +31,7 @@ function distGuideContent(data){
     return '';
   }
 
-  return `
-    * [Distribution](#distribution)  
+  return `* [Distribution](#distribution)  
       `
 };
 
@@ -45,8 +40,7 @@ function licenseContent(data){
     return '';
   }
 
-  return `
-    * [License](#license)  
+  return `* [License](#license)  
       `
 };
 
@@ -55,8 +49,7 @@ function testInstContent(data){
     return '';
   }
 
-  return `
-    * [Test-Instructions](#test-instructions)  
+  return `* [Test-Instructions](#test-instructions)  
       `
 };
 
@@ -142,10 +135,14 @@ module.exports = data => {
   ## Table of Contents  
   * [Description](#description)  
   ${instContent(data)}  
+
   ${usageContent(data)}  
+
   ${distGuideContent(data)}  
+
   ${licenseContent(data)}  
-  ${testInstContent(data)}
+
+  ${testInstContent(data)}  
 
   ## Description
   ${data.desc}  

@@ -6,21 +6,17 @@
 
   ## Table of Contents  
   * [Description](#description)  
-  
-  * [Installation](#installation)  
+  * [Installation](#installation)    
+
+  * [Usage](#usage)    
+
+  * [Distribution](#distribution)  
+        
+
+  * [License](#license)  
+        
+
     
-  
-    * [Usage](#usage)  
-        
-  
-    * [Distribution](#distribution)  
-        
-  
-    * [License](#license)  
-        
-  
-    * [Test-Instructions](#test-instructions)  
-      
 
   ## Description
   Edward  
@@ -45,8 +41,5 @@
   MIT License
       
 
-  
-  ## Test-Instructions  
-  Edward
-      
+    
   
