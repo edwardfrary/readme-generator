@@ -66,6 +66,7 @@ const questions = () => {
                 type: "input",
                 name: "desc",
                 message: "Enter Project Description. (Required)",
+                default: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
                 validate: descripInput => {
                     if (descripInput) {
                         return true;
@@ -79,16 +80,19 @@ const questions = () => {
                 type: "input",
                 name: "inst",
                 message: "Installation Instructions:",
+                default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
             },
             {
                 type: "input",
                 name: "usage",
                 message: "Usage Information:",
+                default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
             },
             {
                 type: "input",
                 name: "distGuide",
                 message: "Distribution Guidelines:",
+                default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
             },
             {
                 type: "list",
@@ -99,6 +103,7 @@ const questions = () => {
                 type: "input",
                 name: "testInst",
                 message: "Test Instructions:",
+                default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
             }
         ])
         .then(dataArr => {

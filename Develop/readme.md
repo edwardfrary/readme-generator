@@ -8,7 +8,7 @@
   * [Description](#description)  
   * [Installation](#installation)    
 
-  * [Usage](#usage)    
+    
 
   * [Distribution](#distribution)  
         
@@ -19,26 +19,23 @@
     
 
   ## Description
-  Edward  
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.  
 
   
   ## Installation 
   Edward
       
 
-  
-  ## Usage Instructions  
-  Edward
-      
+    
 
   
   ## Distribution  
-  Edward
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.
       
 
   
   ## License  
-  MIT License
+  Apache License 2.0
       
 
     
