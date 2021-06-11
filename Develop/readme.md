@@ -1,5 +1,5 @@
 
-  # Edward, a project by Edward, 
+  # Edward, a project by Edward
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
    
   **Email:** Edward  
