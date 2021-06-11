@@ -97,7 +97,7 @@ const questions = () => {
             {
                 type: "list",
                 name: "license",
-                choices: ['MIT License', "Apache License 2.0", "BSD 3-Clause 'New' or 'Revised' license", "GNU General Public License (GPL)"]
+                choices: ['MIT License', "Apache License 2.0", "BSD 3-Clause 'New' or 'Revised' License", "GNU General Public License (GPL)"]
             },
             {
                 type: "input",
@@ -105,12 +105,6 @@ const questions = () => {
                 message: "Test Instructions:",
                 default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
             },
-            {
-                type: "input",
-                name: "questions",
-                message: "Questions:",
-                default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
-            }
         ])
         .then(dataArr => {
             return generatePage(dataArr);

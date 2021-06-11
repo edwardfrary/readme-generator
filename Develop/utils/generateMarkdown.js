@@ -5,20 +5,20 @@ function renderLicenseBadge(data) {
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
   `;
   }
-  
-  if (data.license === "Apache License 2.0"){
-  return`
+
+  if (data.license === "Apache License 2.0") {
+    return `
   [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
   `;
   }
 
-  if (data.license === "BSD 3-Clause 'New' or 'Revised' license"){
+  if (data.license === "BSD 3-Clause 'New' or 'Revised' License") {
     return `
     [![BSD license](https://img.shields.io/badge/license-BSD%203--Clause%20'New'%20or%20'Revised'%20license-blue)](https://opensource.org/licenses/BSD-3-Clause)
     `;
   }
 
-  if (data.license === "GNU General Public License (GPL)"){
+  if (data.license === "GNU General Public License (GPL)") {
     return `
     [![GPL license](https://img.shields.io/badge/license-GNU%20General%20Public%20License%20(GPL)-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
     `;
@@ -123,25 +123,29 @@ function generateLicense(data) {
 
   if (data.license === "MIT License") {
     return `
+  ## License  
   For use under the MIT License Agreement: (https://lbesson.mit-license.org/)
   `;
   }
-  
-  if (data.license === "Apache License 2.0"){
-  return`
-  [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
+
+  if (data.license === "Apache License 2.0") {
+    return `
+  ## License  
+  For use under the Apache Licence 2.0: (https://www.apache.org/licenses/LICENSE-2.0)
   `;
   }
 
-  if (data.license === "BSD 3-Clause 'New' or 'Revised' license"){
+  if (data.license === "BSD 3-Clause 'New' or 'Revised' License") {
     return `
-    [![BSD license](https://img.shields.io/badge/license-BSD%203--Clause%20'New'%20or%20'Revised'%20license-blue)](https://opensource.org/licenses/BSD-3-Clause)
+  ## License  
+  For use under the BSD 3-Clause 'New' or 'Revised' License: (https://opensource.org/licenses/BSD-3-Clause)
     `;
   }
 
-  if (data.license === "GNU General Public License (GPL)"){
+  if (data.license === "GNU General Public License (GPL)") {
     return `
-    [![GPL license](https://img.shields.io/badge/license-GNU%20General%20Public%20License%20(GPL)-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+  ## License  
+  For use under the GNU General Public License (GPL): (https://www.gnu.org/licenses/gpl-3.0.en.html)
     `;
   }
 };
@@ -159,14 +163,11 @@ function generateTestInst(data) {
 };
 
 function generateQuestions(data) {
-  if (!data.questions) {
-    console.log("No Test Instructions");
-    return '';
-  }
-
   return `
   ## Questions  
-  ${data.questions}
+  Any questions or concerns can be addressed directly by email: (${data.email})  
+  In addition my GitHub page can be found at: (https://github.com/${data.gitName})  
+  Thank you.
     `
 };
 
@@ -182,12 +183,10 @@ module.exports = data => {
     distGuide,
     license,
     testInst,
-    questions
+
   } = data;
   return `
   # ${data.title}, a project by ${data.name}${renderLicenseBadge(data)} 
-  **Email:** ${data.email}  
-  **GitHub:** ${data.gitName}  
 
   ## Table of Contents  
   * [Description](#description)  

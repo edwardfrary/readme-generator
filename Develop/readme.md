@@ -1,9 +1,7 @@
 
-  # Edward, a project by Edward
-  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-   
-  **Email:** Edward  
-  **GitHub:** Edward  
+  # ReadMe Generator, a project by Edward Frary
+    [![BSD license](https://img.shields.io/badge/license-BSD%203--Clause%20'New'%20or%20'Revised'%20license-blue)](https://opensource.org/licenses/BSD-3-Clause)
+     
 
   ## Table of Contents  
   * [Description](#description)  
@@ -20,8 +18,7 @@
   * [Test-Instructions](#test-instructions)  
         
 
-  * [Questions](#questions)  
-      
+  
 
   ## Description
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.  
@@ -42,8 +39,9 @@
       
 
   
-  For use under the MIT License Agreement: (https://lbesson.mit-license.org/)
-    
+  ## License  
+  For use under the BSD 3-Clause 'New' or 'Revised' License: (https://opensource.org/licenses/BSD-3-Clause)
+      
 
   
   ## Test-Instructions  
@@ -52,5 +50,7 @@
   
   
   ## Questions  
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.
+  Any questions or concerns can be addressed directly by email: (edwardfrary@gmail.com)  
+  In addition my GitHub page can be found at: (https://github.com/edwardfrary)  
+  Thank you.
     
