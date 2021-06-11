@@ -1,0 +1,26 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfereti Edward Frary",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardfrary/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/edwardfrary/readme-generator/issues"
+  },
+  "homepage": "https://github.com/edwardfrary/readme-generator#readme",
+  "description": ""
+}
