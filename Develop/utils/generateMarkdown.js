@@ -22,6 +22,54 @@ function generateInst(data) {
     `
 };
 
+function generateUsage(data) {
+  if (!data.usage) {
+    console.log("No Usage Instructions");
+    return '';
+  }
+
+  return `
+  ## Usage Instructions  
+  ${data.usage}
+    `
+};
+
+function generateDistGuide(data) {
+  if (!data.distGuide) {
+    console.log("No Distribution Guidelines");
+    return '';
+  }
+
+  return `
+  ## Distribution Guidelines  
+  ${data.distGuide}
+    `
+};
+
+function generateLicense(data) {
+  if (!data.license) {
+    console.log("No License Information");
+    return '';
+  }
+
+  return `
+  ## License Infromation  
+  ${data.license}
+    `
+};
+
+function generateTestInst(data) {
+  if (!data.testInst) {
+    console.log("No Test Instructions");
+    return '';
+  }
+
+  return `
+  ## Test Instructions  
+  ${data.testInst}
+    `
+};
+
 module.exports = data => {
   const {
     name,
@@ -45,6 +93,14 @@ module.exports = data => {
   ${data.desc}  
 
   ${generateInst(data)}  
+
+  ${generateUsage(data)}  
+
+  ${generateDistGuide(data)}  
+
+  ${generateLicense(data)}  
+
+  ${generateTestInst(data)}  
   
 `;
 };

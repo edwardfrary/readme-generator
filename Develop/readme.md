@@ -1,14 +1,22 @@
 
-  # Freddy, a project by Freddy.
+  # Edward, a project by Edward.
 
-  **Email:** Freddy  
-  **GitHub:** Freddy
+  **Email:** Edward  
+  **GitHub:** Edward
 
   ## Project Description
-  Freddy  
+  Edward  
+
+    
+
+    
+
+    
 
   
-  ## Installation Instructions  
-  Freddy
+  ## License Infromation  
+  MIT License
       
+
+    
   
