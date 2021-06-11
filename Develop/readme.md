@@ -1,9 +1,9 @@
 
-  # readme generator, a project by Edward Frary
+  # Edward, a project by Edward
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
    
-  **Email:** edwardfrary@gmail.com  
-  **GitHub:** edwardfrary  
+  **Email:** Edward  
+  **GitHub:** Edward  
 
   ## Table of Contents  
   * [Description](#description)  
@@ -20,8 +20,11 @@
   * [Test-Instructions](#test-instructions)  
         
 
+  * [Questions](#questions)  
+      
+
   ## Description
-  A short script written in node to generate a readme based on user input  
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.  
 
   
   ## Installation 
@@ -48,3 +51,7 @@
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.
       
   
+  
+  ## Questions  
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.
+    

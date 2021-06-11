@@ -104,6 +104,12 @@ const questions = () => {
                 name: "testInst",
                 message: "Test Instructions:",
                 default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
+            },
+            {
+                type: "input",
+                name: "questions",
+                message: "Questions:",
+                default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
             }
         ])
         .then(dataArr => {

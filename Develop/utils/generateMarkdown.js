@@ -70,6 +70,15 @@ function testInstContent(data) {
       `
 };
 
+function questionsContent(data) {
+  if (!data.questions) {
+    return '';
+  }
+
+  return `* [Questions](#questions)  
+      `
+};
+
 function generateInst(data) {
   if (!data.inst) {
     console.log("No Installation Instructions");
@@ -130,6 +139,18 @@ function generateTestInst(data) {
     `
 };
 
+function generateQuestions(data) {
+  if (!data.questions) {
+    console.log("No Test Instructions");
+    return '';
+  }
+
+  return `
+  ## Questions  
+  ${data.questions}
+    `
+};
+
 module.exports = data => {
   const {
     name,
@@ -141,7 +162,8 @@ module.exports = data => {
     usage,
     distGuide,
     license,
-    testInst
+    testInst,
+    questions
   } = data;
   return `
   # ${data.title}, a project by ${data.name}${renderLicenseBadge(data)} 
@@ -160,6 +182,8 @@ module.exports = data => {
 
   ${testInstContent(data)}  
 
+  ${questionsContent(data)}
+
   ## Description
   ${data.desc}  
 
@@ -173,5 +197,6 @@ module.exports = data => {
 
   ${generateTestInst(data)}  
   
+  ${generateQuestions(data)}
 `;
 };
