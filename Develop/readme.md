@@ -6,10 +6,10 @@
 
   ## Table of Contents  
   
-  * [Project Description](#project description)
+  * [Description](#description)
    
 
-  ## Project Description
+  ## Description
   Edward  
 
   
@@ -22,10 +22,7 @@
   Edward
       
 
-  
-  ## Distribution Guidelines  
-  Edward
-      
+    
 
   
   ## License Infromation  

@@ -12,7 +12,7 @@ function renderLicenseSection(license) { }
 
 function generateContents(data){
  return`
-  * [Project Description](#project description)
+  * [Description](#description)
  `
 };
 
@@ -98,7 +98,7 @@ module.exports = data => {
   ## Table of Contents  
   ${generateContents(data)}  
 
-  ## Project Description
+  ## Description
   ${data.desc}  
 
   ${generateInst(data)}  
