@@ -26,7 +26,7 @@ function usageContent(data) {
   }
 
   return `
-     * [Usage](#usage instructions)
+    * [Usage](#usage)  
       `
 };
 
@@ -36,7 +36,7 @@ function distGuideContent(data){
   }
 
   return `
-     * [Distribution](#distribution)
+    * [Distribution](#distribution)  
       `
 };
 
@@ -46,7 +46,7 @@ function licenseContent(data){
   }
 
   return `
-     * [License](#license)
+    * [License](#license)  
       `
 };
 
@@ -56,7 +56,7 @@ function testInstContent(data){
   }
 
   return `
-     * [Test Instructions](#test instructions)
+    * [Test Instructions](#test)  
       `
 };
 

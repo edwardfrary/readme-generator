@@ -10,15 +10,17 @@
   * [Installation](#installation)  
     
   
-     * [Usage](#usage instructions)
+    * [Usage](#usage)  
         
   
-     * [Distribution](#distribution)
+    * [Distribution](#distribution)  
         
   
-     * [License](#license)
+    * [License](#license)  
         
   
+    * [Test Instructions](#test)  
+      
 
   ## Description
   Edward  
@@ -43,5 +45,8 @@
   MIT License
       
 
-    
+  
+  ## Test Instructions  
+  Edward
+      
   
