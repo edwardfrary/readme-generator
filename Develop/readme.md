@@ -42,9 +42,8 @@
       
 
   
-  ## License  
-  For use with MIT License restrictions.
-      
+  For use under the MIT License Agreement: (https://lbesson.mit-license.org/)
+    
 
   
   ## Test-Instructions  

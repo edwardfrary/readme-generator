@@ -121,10 +121,29 @@ function generateLicense(data) {
     return '';
   }
 
-  return `
-  ## License  
-  For use with ${data.license} restrictions.
-    `
+  if (data.license === "MIT License") {
+    return `
+  For use under the MIT License Agreement: (https://lbesson.mit-license.org/)
+  `;
+  }
+  
+  if (data.license === "Apache License 2.0"){
+  return`
+  [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
+  `;
+  }
+
+  if (data.license === "BSD 3-Clause 'New' or 'Revised' license"){
+    return `
+    [![BSD license](https://img.shields.io/badge/license-BSD%203--Clause%20'New'%20or%20'Revised'%20license-blue)](https://opensource.org/licenses/BSD-3-Clause)
+    `;
+  }
+
+  if (data.license === "GNU General Public License (GPL)"){
+    return `
+    [![GPL license](https://img.shields.io/badge/license-GNU%20General%20Public%20License%20(GPL)-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+    `;
+  }
 };
 
 function generateTestInst(data) {
