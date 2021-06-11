@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// funtion to take the license selection of the data and render a badge/link based on user selection
 function renderLicenseBadge(data) {
   if (data.license === "MIT License") {
     return `
@@ -13,15 +12,20 @@ function renderLicenseBadge(data) {
   `;
   }
 
+  if (data.license === "BSD 3-Clause 'New' or 'Revised' license"){
+    return `
+    [![BSD license](https://img.shields.io/badge/license-BSD%203--Clause%20'New'%20or%20'Revised'%20license-blue)](https://opensource.org/licenses/BSD-3-Clause)
+    `;
+  }
+
+  if (data.license === "GNU General Public License (GPL)"){
+    return `
+    [![GPL license](https://img.shields.io/badge/license-GNU%20General%20Public%20License%20(GPL)-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+    `;
+  }
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) { }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) { }
 
 function instContent(data) {
   if (!data.inst) {
