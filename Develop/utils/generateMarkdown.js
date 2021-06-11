@@ -36,7 +36,7 @@ module.exports = data => {
   return `
   # ${data.title}, a project by ${data.name}.
 
-  **Contact email:** ${data.email}
+  **Contact email:** ${data.email}  
   **GitHub:** ${data.gitName}
 
   ## Project Description
