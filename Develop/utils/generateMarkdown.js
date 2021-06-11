@@ -114,8 +114,7 @@ function generateLicense(data) {
 
   return `
   ## License  
-  ${renderLicenseBadge(data)}  
-  ${data.license}
+  For use with ${data.license} restrictions.
     `
 };
 
@@ -145,8 +144,8 @@ module.exports = data => {
     testInst
   } = data;
   return `
-  # ${data.title}, a project by ${data.name}.
-
+  # ${data.title}, a project by ${data.name}. ${renderLicenseBadge(data)}  
+  
   **Email:** ${data.email}  
   **GitHub:** ${data.gitName}
 

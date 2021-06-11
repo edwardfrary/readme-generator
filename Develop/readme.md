@@ -1,8 +1,10 @@
 
-  # Edward, a project by Edward.
-
-  **Email:** Edward  
-  **GitHub:** Edward
+  # readme generator, a project by Edward. 
+    [![BSD license](https://img.shields.io/badge/license-BSD%203--Clause%20'New'%20or%20'Revised'%20license-blue)](https://opensource.org/licenses/BSD-3-Clause)
+      
+  
+  **Email:** edwardfrary@gmail.com  
+  **GitHub:** edwardfrary
 
   ## Table of Contents  
   * [Description](#description)  
@@ -39,10 +41,7 @@
 
   
   ## License  
-  
-  [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
-    
-  Apache License 2.0
+  For use with BSD 3-Clause 'New' or 'Revised' license restrictions.
       
 
   
