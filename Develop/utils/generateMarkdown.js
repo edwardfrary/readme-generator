@@ -144,7 +144,7 @@ module.exports = data => {
     testInst
   } = data;
   return `
-  # ${data.title}, a project by ${data.name}. ${renderLicenseBadge(data)} 
+  # ${data.title}, a project by ${data.name} ${renderLicenseBadge(data)} 
   **Email:** ${data.email}  
   **GitHub:** ${data.gitName}  
 
