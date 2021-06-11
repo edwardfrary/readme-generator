@@ -10,10 +10,54 @@ function renderLicenseLink(license) { }
 // If there is no license, return an empty string
 function renderLicenseSection(license) { }
 
-function generateContents(data){
- return`
-  * [Description](#description)
- `
+function instContent(data) {
+  if (!data.inst) {
+    return '';
+  }
+
+  return `
+  * [Installation](#installation)  
+  `
+};
+
+function usageContent(data) {
+  if (!data.usage) {
+    return '';
+  }
+
+  return `
+     * [Usage](#usage instructions)
+      `
+};
+
+function distGuideContent(data){
+  if (!data.distGuide) {
+    return '';
+  }
+
+  return `
+     * [Distribution](#distribution)
+      `
+};
+
+function licenseContent(data){
+  if (!data.license) {
+    return '';
+  }
+
+  return `
+     * [License](#license)
+      `
+};
+
+function testInstContent(data){
+  if (!data.testInst) {
+    return '';
+  }
+
+  return `
+     * [Test Instructions](#test instructions)
+      `
 };
 
 function generateInst(data) {
@@ -23,7 +67,7 @@ function generateInst(data) {
   }
 
   return `
-  ## Installation Instructions  
+  ## Installation 
   ${data.inst}
     `
 };
@@ -47,7 +91,7 @@ function generateDistGuide(data) {
   }
 
   return `
-  ## Distribution Guidelines  
+  ## Distribution  
   ${data.distGuide}
     `
 };
@@ -96,7 +140,12 @@ module.exports = data => {
   **GitHub:** ${data.gitName}
 
   ## Table of Contents  
-  ${generateContents(data)}  
+  * [Description](#description)  
+  ${instContent(data)}  
+  ${usageContent(data)}  
+  ${distGuideContent(data)}  
+  ${licenseContent(data)}  
+  ${testInstContent(data)}
 
   ## Description
   ${data.desc}  
