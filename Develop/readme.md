@@ -1,7 +1,8 @@
 
-  # ReadMe Generator, a project by Edward Frary
-    [![BSD license](https://img.shields.io/badge/license-BSD%203--Clause%20'New'%20or%20'Revised'%20license-blue)](https://opensource.org/licenses/BSD-3-Clause)
-     
+  # edwardfrary, a project by Edward Frary  
+  
+  [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
+   
 
   ## Table of Contents  
   * [Description](#description)  
@@ -18,7 +19,7 @@
   * [Test-Instructions](#test-instructions)  
         
 
-  
+  * [Questions](#questions)
 
   ## Description
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.  
@@ -40,8 +41,8 @@
 
   
   ## License  
-  For use under the BSD 3-Clause 'New' or 'Revised' License: (https://opensource.org/licenses/BSD-3-Clause)
-      
+  For use under the Apache Licence 2.0: (https://www.apache.org/licenses/LICENSE-2.0)
+    
 
   
   ## Test-Instructions  
