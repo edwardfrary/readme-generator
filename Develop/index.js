@@ -78,7 +78,7 @@ const questions = () => {
             {
                 type: "input",
                 name: "inst",
-                message: "Specific Installation Instructions:",
+                message: "Installation Instructions:",
             },
             {
                 type: "input",

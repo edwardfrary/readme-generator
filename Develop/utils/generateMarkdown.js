@@ -10,15 +10,17 @@ function renderLicenseLink(license) { }
 // If there is no license, return an empty string
 function renderLicenseSection(license) { }
 
-// TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   const {name, title} = data;
+function generateInst(data) {
+  if (!data.inst) {
+    console.log("No Installation Instructions");
+    return '';
+  }
 
-//   return `
-//   ${name} and ${title}
-//   `;
-
-// }
+  return `
+  ## Installation Instructions  
+  ${data.inst}
+    `
+};
 
 module.exports = data => {
   const {
@@ -36,10 +38,13 @@ module.exports = data => {
   return `
   # ${data.title}, a project by ${data.name}.
 
-  **Contact email:** ${data.email}  
+  **Email:** ${data.email}  
   **GitHub:** ${data.gitName}
 
   ## Project Description
-  ${data.desc}
+  ${data.desc}  
+
+  ${generateInst(data)}  
+  
 `;
 };

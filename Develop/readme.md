@@ -1,8 +1,14 @@
 
-  # Edward, a project by Edward.
+  # Freddy, a project by Freddy.
 
-  **Contact email:** Edward  
-  **GitHub:** Edward
+  **Email:** Freddy  
+  **GitHub:** Freddy
 
   ## Project Description
-  Edward
+  Freddy  
+
+  
+  ## Installation Instructions  
+  Freddy
+      
+  
