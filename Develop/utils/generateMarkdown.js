@@ -34,12 +34,12 @@ module.exports = data => {
     testInst
   } = data;
   return `
-  #${data.title}, a project by ${data.name}.
+  <h1> ${data.title}, a project by ${data.name}.
 
   **Contact email:** ${data.email}
   **GitHub:** ${data.gitName}
 
-  ##Project Description
+  ## Project Description
   ${data.desc}
 `;
 };
