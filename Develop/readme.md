@@ -1,10 +1,11 @@
 
-  # readme generator, a project by Edward. 
-    [![BSD license](https://img.shields.io/badge/license-BSD%203--Clause%20'New'%20or%20'Revised'%20license-blue)](https://opensource.org/licenses/BSD-3-Clause)
-      
+  # Edward Frary, a project by Edward Frary.
   
-  **Email:** edwardfrary@gmail.com  
-  **GitHub:** edwardfrary
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+    
+  
+  **Email:** Edward Frary  
+  **GitHub:** Edward Frary
 
   ## Table of Contents  
   * [Description](#description)  
@@ -41,7 +42,7 @@
 
   
   ## License  
-  For use with BSD 3-Clause 'New' or 'Revised' license restrictions.
+  For use with MIT License restrictions.
       
 
   
