@@ -7,8 +7,8 @@ a readme file by the fs package.
 
 ## Images: 
 
-![code](./utils/assets/images/code.jpg) 
-![readme](./utils/assets/images/readme.jpg)
+![code](./Develop/utils/assets/images/code.jpg) 
+![readme](./Develop/utils/assets/images/readme.jpg)
 
 ## Questions:
 Direct email: (edwardfrary@gmail.com)
