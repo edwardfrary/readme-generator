@@ -178,6 +178,7 @@ module.exports = data => {
   } = data;
   return `
   # ${data.title}, a project by ${data.name}  
+  
   ${renderLicenseBadge(data)} 
 
   ## Table of Contents  

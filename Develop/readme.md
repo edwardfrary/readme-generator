@@ -1,14 +1,15 @@
 
-  # ReadMe Generator, a project by Edward Frary  
+  # readme generator, a project by Edward Frary  
   
-    [![GPL license](https://img.shields.io/badge/license-GNU%20General%20Public%20License%20(GPL)-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-     
+  
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+   
 
   ## Table of Contents  
   * [Description](#description)  
   * [Installation](#installation)    
 
-    
+  * [Usage](#usage)    
 
   * [Distribution](#distribution)  
         
@@ -22,14 +23,17 @@
   * [Questions](#questions)
 
   ## Description
-  Lorem Ipsum placeholder statement  
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.  
 
   
   ## Installation 
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.
       
 
-    
+  
+  ## Usage Instructions  
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.
+      
 
   
   ## Distribution  
@@ -38,8 +42,8 @@
 
   
   ## License  
-  For use under the GNU General Public License (GPL): (https://www.gnu.org/licenses/gpl-3.0.en.html)
-      
+  For use under the MIT License Agreement: (https://lbesson.mit-license.org/)
+    
 
   
   ## Test-Instructions  
