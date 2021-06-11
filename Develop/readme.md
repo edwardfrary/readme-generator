@@ -19,7 +19,7 @@
     * [License](#license)  
         
   
-    * [Test Instructions](#test)  
+    * [Test-Instructions](#test-instructions)  
       
 
   ## Description
@@ -41,12 +41,12 @@
       
 
   
-  ## License Infromation  
+  ## License  
   MIT License
       
 
   
-  ## Test Instructions  
+  ## Test-Instructions  
   Edward
       
   

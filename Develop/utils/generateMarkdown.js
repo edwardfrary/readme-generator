@@ -56,7 +56,7 @@ function testInstContent(data){
   }
 
   return `
-    * [Test Instructions](#test)  
+    * [Test-Instructions](#test-instructions)  
       `
 };
 
@@ -103,7 +103,7 @@ function generateLicense(data) {
   }
 
   return `
-  ## License Infromation  
+  ## License  
   ${data.license}
     `
 };
@@ -115,7 +115,7 @@ function generateTestInst(data) {
   }
 
   return `
-  ## Test Instructions  
+  ## Test-Instructions  
   ${data.testInst}
     `
 };
