@@ -1,14 +1,14 @@
 
-  # edwardfrary, a project by Edward Frary  
+  # ReadMe Generator, a project by Edward Frary  
   
-  [![Apache license](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
    
 
   ## Table of Contents  
   * [Description](#description)  
   * [Installation](#installation)    
 
-  * [Usage](#usage)    
+    
 
   * [Distribution](#distribution)  
         
@@ -22,17 +22,14 @@
   * [Questions](#questions)
 
   ## Description
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.  
+  Lorem Ipsum placeholder information  
 
   
   ## Installation 
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.
       
 
-  
-  ## Usage Instructions  
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.
-      
+    
 
   
   ## Distribution  
@@ -41,7 +38,7 @@
 
   
   ## License  
-  For use under the Apache Licence 2.0: (https://www.apache.org/licenses/LICENSE-2.0)
+  For use under the MIT License Agreement: (https://lbesson.mit-license.org/)
     
 
   
