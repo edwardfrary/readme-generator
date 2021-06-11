@@ -10,6 +10,12 @@ function renderLicenseLink(license) { }
 // If there is no license, return an empty string
 function renderLicenseSection(license) { }
 
+function generateContents(data){
+ return`
+  * [Project Description](#project description)
+ `
+};
+
 function generateInst(data) {
   if (!data.inst) {
     console.log("No Installation Instructions");
@@ -88,6 +94,9 @@ module.exports = data => {
 
   **Email:** ${data.email}  
   **GitHub:** ${data.gitName}
+
+  ## Table of Contents  
+  ${generateContents(data)}  
 
   ## Project Description
   ${data.desc}  
