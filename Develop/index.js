@@ -66,7 +66,7 @@ const questions = () => {
                 type: "input",
                 name: "desc",
                 message: "Enter Project Description. (Required)",
-                default: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
+                default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore, eius expedita sed amet minima eaque, quos, at consectetur fugit pariatur architecto odio totam fugiat quaerat. Temporibus ipsa ipsum error.",
                 validate: descripInput => {
                     if (descripInput) {
                         return true;
